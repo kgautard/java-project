@@ -5,7 +5,7 @@ import org.apache.commons.codec.digest.DigestUtils;
 public class App {
 	public static void main(String[] args) {
 		if (args.length < 1) {
-			System.err.println("Please provide an input!");
+			System.err.println("Please provide an input troubidouche!");
 			System.exit(0);
 		}
 		System.out.println(sha256hex(args[0]));
